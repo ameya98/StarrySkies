@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway+Dots');
+
+body {
+  margin: 0px;
+  min-height: 100%;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#stars {
+  position: relative;
+  font-family: 'Raleway Dots', cursive;
+  font-size: 93px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #00091a;
+  top: 0%;
+  height: 100vh;
+}
+
+#title {
+  position: fixed;
+  background-color: transparent;
+  width: 40%;
+  z-index: 1;
+  left: 0;
+}
+
+#canv {
+  position: absolute;
+  z-index: 0;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#buttonholder {
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  opacity: 0.25;
+  height: 30px;
+  width: 30px;
+  top: 2%; right: 1%;
+  border-radius: 5px;
+}
+
+#buttonholder:hover {
+  opacity: 0.8;
+}
+
+#mute{
+  position: absolute;
+  left: 0;
+  width: 30px;
+  height: 30px;
+}
